@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.headerElement {
+  display: grid;
+  grid-template-columns: 1fr max-content 1fr;
+  grid-column-gap: 5px;
+  align-items: center;
+}
