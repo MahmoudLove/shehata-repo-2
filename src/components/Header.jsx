@@ -73,7 +73,7 @@ export default function Header() {
           </form>
         </div>
       </main>
-      <div ref={divToAddMargin}></div>
+      <div></div>
     </div>
   );
 }
